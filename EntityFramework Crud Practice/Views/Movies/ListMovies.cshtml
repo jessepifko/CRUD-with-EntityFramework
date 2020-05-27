@@ -1,0 +1,59 @@
+﻿@model IEnumerable<EntityFramework_Crud_Practice.Models.MoviesDb>
+
+@{
+    ViewData["Title"] = "ListMovies";
+}
+
+<h1>ListMovies</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleaseYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RunTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RentPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var movies in Model) {
+        <tr>
+            <td>
+                @movies.Title
+            </td>
+            <td>
+                @movies.Genre
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => movies.ReleaseYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => movies.RunTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => movies.RentPrice)
+            </td>
+            <td>
+                <a asp-action="UpdateMovie" asp-route-id="@movies.Id">Update</a> |
+                <a asp-action="DeleteMovie" asp-route-id="@movies.Id">Delete</a>
+            </td>
+        </tr>
+}               
+    </tbody>
+</table>
+<a href="/Movies/AddMovie">Add Movie</a>
