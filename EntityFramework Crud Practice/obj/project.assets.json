@@ -8248,11 +8248,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesse\\source\\repos\\EntityFramework Crud Practice\\EntityFramework Crud Practice\\EntityFramework Crud Practice.csproj",
+      "projectUniqueName": "C:\\Users\\Jesse\\Desktop\\CRUD-with-EntityFramework\\EntityFramework Crud Practice\\EntityFramework Crud Practice.csproj",
       "projectName": "EntityFramework Crud Practice",
-      "projectPath": "C:\\Users\\Jesse\\source\\repos\\EntityFramework Crud Practice\\EntityFramework Crud Practice\\EntityFramework Crud Practice.csproj",
+      "projectPath": "C:\\Users\\Jesse\\Desktop\\CRUD-with-EntityFramework\\EntityFramework Crud Practice\\EntityFramework Crud Practice.csproj",
       "packagesPath": "C:\\Users\\Jesse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jesse\\source\\repos\\EntityFramework Crud Practice\\EntityFramework Crud Practice\\obj\\",
+      "outputPath": "C:\\Users\\Jesse\\Desktop\\CRUD-with-EntityFramework\\EntityFramework Crud Practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",

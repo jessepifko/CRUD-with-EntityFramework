@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5nORYfopm8UhQar3guzp6R5e4EHKE6F8Nup/5O9TaaWAu6y2EuHh5foeMDdvKzLIsjvMBGXCeYb6SjGmy+rnvg==",
+  "dgSpecHash": "ei1yWCx33z8HX6Qh6ydaSb4V5p57WMI1lxPiLfXwqgojdpwrRykiYaIUx5mXVvMVlPvQrXWN7sHzH2BZEm+FHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jesse\\source\\repos\\EntityFramework Crud Practice\\EntityFramework Crud Practice\\EntityFramework Crud Practice.csproj",
+  "projectFilePath": "C:\\Users\\Jesse\\Desktop\\CRUD-with-EntityFramework\\EntityFramework Crud Practice\\EntityFramework Crud Practice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jesse\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Jesse\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
